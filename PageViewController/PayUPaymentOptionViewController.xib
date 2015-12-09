@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PayUPaymentOptionViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wro-Ok-bUP">
+                    <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.56862745100000001" green="0.76078431369999999" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="1" green="0.20593942160000001" blue="0.13379635079999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wro-Ok-bUP" secondAttribute="bottom" id="6Ts-dj-m3L"/>
+                <constraint firstItem="wro-Ok-bUP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IUm-qF-yuN"/>
+                <constraint firstAttribute="trailing" secondItem="wro-Ok-bUP" secondAttribute="trailing" id="SEV-G0-hzJ"/>
+                <constraint firstItem="wro-Ok-bUP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="rTo-Ek-CuQ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="222" y="357"/>
+        </view>
+        <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="Myv-dl-9AG">
+            <point key="canvasLocation" x="248" y="-272"/>
+        </pageViewController>
+    </objects>
+</document>
